@@ -1,10 +1,12 @@
 # pizza-istio-demo
 
-First prepare the image on docker hub for the follow microservices: <br>
+
+## Intro
+Here are repository for the docker images that I build the docker image from: <br>
 https://github.com/mrevanschan/order-service <br>
 https://github.com/mrevanschan/order-generator <br>
 
-If you are using your own docker hub account please change the image in spec.template.spec.containers.image for both order-service.yaml & order-generator.yaml,to point to your own docker hub repository.
+I have already pushed the images to my docker hub account, but if you want to use your own docker hub account please change the image in spec.template.spec.containers.image for both order-service.yaml & order-generator.yaml,to point to your own docker hub repository.
 
 ## Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
