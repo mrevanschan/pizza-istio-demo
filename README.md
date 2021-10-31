@@ -20,3 +20,14 @@ istioctl install
 kubectl label namespace default istio-injection=enabled
 kubectl apply -f order-service.yaml -f order-generator.yaml
 ```
+
+## Verity Orders
+
+To verify orders being passed from one microservice to the other. Run the foll:
+```
+kubectl get pod
+```
+To get the pod names then run the following is seperate terminals for each pod: 
+```
+kubectl logs <pod-name> -f
+```
