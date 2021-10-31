@@ -11,7 +11,7 @@ I have already pushed the images to my docker hub account, but if you want to us
 ## Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
 * Docker Desktop - please set resources to have at least 6 cpu cores and 8GB memory. Also please have kubenetues enabled
-* Istio - please run "export PATH=$PWD/bin:$PATH" in installation directory so you can use istioctl
+* Istio - please run "export PATH=$PWD/bin:$PATH" in installation directory so you can use istioctl in command line
 
 ## Install Steps
 Run the following from root directory:
