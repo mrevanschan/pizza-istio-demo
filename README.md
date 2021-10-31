@@ -14,7 +14,7 @@ Make sure you have installed all of the following prerequisites on your developm
 * Istio - please run "export PATH=$PWD/bin:$PATH" in installation directory so you can use istioctl
 
 ## Install Steps
-Run the following lines
+Run the following from root directory:
 ```
 istioctl install
 kubectl label namespace default istio-injection=enabled
