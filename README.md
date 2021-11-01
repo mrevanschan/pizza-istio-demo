@@ -23,7 +23,7 @@ kubectl apply -f order-service.yaml -f order-generator.yaml
 
 ## Verity Orders
 
-To verify orders being passed from one microservice to the other. Run the foll:
+To verify orders being passed from one microservice to the other. Run the following:
 ```
 kubectl get pod
 ```
